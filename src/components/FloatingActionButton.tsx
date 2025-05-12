@@ -16,7 +16,7 @@ export function FloatingActionButton({
       onClick={onClick}
       size="icon"
       className={cn(
-        'fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg transition-all hover:scale-110',
+        'fixed bottom-8 right-20 h-14 w-14 rounded-full shadow-lg transition-all hover:scale-110 bg-primary/30',
         className
       )}
     >

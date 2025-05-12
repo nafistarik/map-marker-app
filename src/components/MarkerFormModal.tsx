@@ -11,7 +11,6 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { MarkerData } from '@/types';
 
-// Form validation schema
 const formSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters.'),
   lat: z.coerce
